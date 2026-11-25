@@ -1,0 +1,46 @@
+#adx_ad {
+    cursor: pointer;
+    position: absolute;
+    z-index: 98;
+    width: 326px;
+    height: 276px;
+    left: 50%;
+    top: 50%;
+    margin-left: -163px !important;
+    margin-top: -155px !important;
+    padding: 0px;
+    border: 0px;
+    display: none;
+}
+
+.bottom_banner_block {
+    cursor:pointer;
+    position: absolute;
+    z-index: 98;
+    width: 468px;
+    height: 60px;
+    padding: 1px;
+    padding-right:0;
+    display: none;
+    margin-left: -234px !important;
+    left: 50%;
+    bottom: 0;
+    margin-bottom: 45px;
+}
+
+.bottom_banner_close {
+    display: none;
+    cursor:pointer;
+    position: absolute;
+    width:15px;
+    height:55px;
+    left: 50%;
+    margin-left: 218px;
+    padding:0;
+    z-index:99;
+    bottom: 0;
+    margin-bottom: 48px;
+}
+.adx_hidden {
+    display: none !important;
+}
