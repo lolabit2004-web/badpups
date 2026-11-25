@@ -1,0 +1,335 @@
+
+/* Big play button background */
+.drt-video-player .drt-play-button {
+	background-color: rgba(204,42,42,.75);
+}
+
+/* Whole control bar background */
+.drt-video-player,
+.drt-video-player .drt-control-bar,
+.drt-video-player .drt-menu-bar {
+	background-color: rgba(31,31,31,.7);
+}
+
+/* Video process bar common background */
+.drt-video-player .drt-control-bar .drt-bar .drt-bar-full {
+	background-color: rgba(255,255,255,.3);
+}
+
+/* Video process bar [played part, before seeker] background */
+.drt-video-player .drt-control-bar .drt-bar .drt-bar-processed {
+	background-color: #CC2A2A;
+}
+
+/* Video process bar [buffered part, after seeker] background */
+.drt-video-player .drt-control-bar .drt-bar .drt-bar-buffered {
+	background-color: rgba(255,255,255,.5);
+}
+
+/* Video process bar [hover part, after seeker, before mouse X coord] background */
+.drt-video-player .drt-control-bar .drt-bar .drt-bar-hovered {
+	background-color: rgba(255,255,255,.5);
+}
+
+/* Video process bar [mouse moving bar] background */
+.drt-video-player .drt-control-bar .drt-bar .drt-bar-mouse {
+	background-color: rgba(255,255,255,.5);
+}
+
+/* Control bar seeker circle background */
+.drt-video-player .drt-control-bar .drt-bar .drt-seeker {
+	background-color: #fff;
+}
+
+/* Control bar overlay thumbs border color */
+.drt-video-player .drt-control-bar .drt-bar .drt-inner-bar .drt-thumb-preview {
+	border-color: #ccc;
+}
+
+/* Control bar overlay thumbs triangel */
+.drt-video-player .drt-control-bar .drt-bar .drt-inner-bar .drt-thumb-preview:after {
+	border-top-color: #ccc;
+}
+
+/* Control bar, thumb panel, time styles */
+.drt-video-player .drt-control-bar .drt-bar .drt-inner-bar .drt-thumb-preview span {
+	background: rgba(0,0,0,.5);
+	color: #fff;
+}
+
+/* Start / current time font color */
+.drt-video-player .drt-control-bar .drt-time .drt-time-current {
+	color: #fff;
+}
+
+/* Video duration time font color */
+.drt-video-player .drt-control-bar .drt-time .drt-time-whole {
+	color: #bfbfbf;
+}
+
+/* Volume process bar common background */
+.drt-video-player .drt-control-bar .drt-volume-block .drt-volume-bar .drt-inner-bar {
+	background-color: rgba(255,255,255,.3);
+}
+
+/* Volume process bar [before seeker] background */
+.drt-video-player .drt-control-bar .drt-volume-block .drt-volume-bar .drt-bar-processed {
+	background-color: #fff;
+}
+
+/* Volume bar seeker circle background */
+.drt-video-player .drt-control-bar .drt-volume-block .drt-volume-bar .drt-seeker {
+	background-color: #fff;
+}
+
+/* HD bar button indicator color and background */
+.drt-video-player .drt-control-bar .drt-button-quality:after {
+	color: #fff;
+	background-color: #282828;
+}
+
+/* HD bar button [mode ON] indicator background */
+.drt-video-player .drt-control-bar .drt-button-quality.mode-hq:after {
+	background-color: #CC2A2A;
+}
+
+.drt-video-player .drt-menu-bar a,
+.drt-video-player .drt-menu-bar div {
+	color: #fff;
+}
+
+.drt-video-player .drt-menu-bar a:hover {
+	background-color: #393939;
+}
+
+.drt-video-player .drt-menu-bar a.state-active {
+	background-color: #CC2A2A;
+}
+
+.drt-video-player .drt-menu-bar a:hover:after {
+	border-top-color: #393939;
+	opacity: 1;
+}
+
+.drt-video-player .drt-menu-bar a.state-active:after {
+	border-top-color: #CC2A2A;
+}
+
+.drt-video-player .drt-menu-block {
+	background: rgba(0,0,0,.9);
+}
+
+.drt-video-player .drt-menu-block h2 {
+	color: #fff;
+}
+
+.drt-video-player .drt-menu-block h3 {
+	color: #a0a0a0;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list a {
+	border-color: #000;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list a:before {
+	background: #000;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list a span {
+	color: #fff;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list a:hover {
+	border-color: #CC2A2A;
+}
+
+.drt-video-player .drt-menu-block .drt-share-list a span {
+	color: #fff;
+}
+
+.drt-video-player .drt-menu-block input {
+	background: #272626;
+	color: #fff;
+	border-color: #7a7a7a;
+}
+
+.drt-video-player .drt-quality-status {
+	background-color: rgba(55,49,40,.8);
+}
+
+.drt-video-player .drt-quality-status:after {
+	color: #fff;
+}
+
+.drt-video-player .drt-context-menu .drt-context-menu-list {
+	background: #000;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.drt-video-player .drt-context-menu a {
+	color: #fff;
+	border-bottom-color: #888;
+}
+
+.drt-video-player .drt-context-menu a:hover {
+	background: #444;
+}
+
+.ui-tooltip {
+	background: #000;
+}
+
+.ui-tooltip-content {
+	color: #fff;
+}
+
+.ui-tooltip:after {
+	border-top-color: #000;
+}
+
+.drt-video-player .drt-spot-close {
+	background-color: #CC2A2A;
+}
+
+.drt-video-player .drt-spot-close:hover {
+	background-color: #919191;
+}
+
+.drt-video-player .drt-spot-box .drt-spot-close-play {
+	color: #fff;
+	background-color: #1a1a1b;
+}
+
+.drt-video-player .drt-spot-box .drt-spot-close-play:hover {
+	background-color: #919191;
+}
+
+.drt-video-player .drt-spot-box .drt-spot-inner {
+	background: #1A1A1B;
+}
+
+.drt-video-player .drt-spot-box .drt-spot-inner .drt-spot-title .drt-spot-header {
+	color: #fff;
+}
+
+.drt-video-player .drt-spot-box .drt-spot-buttons > a {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.drt-video-player .drt-spot-box .drt-spot-buttons > a:hover {
+	background-color: #1a1a1b;
+}
+
+.drt-video-player .drt-spot-box .drt-spot-buttons > * span {
+	color: #fff;
+}
+
+.drt-video-player .drt-sponsor-block .drt-sponsor-data {
+	background: rgba(204,204,204,.4);
+}
+
+.drt-video-player .drt-sponsor-block .drt-sponsor-data .drt-sponsor-text {
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+
+.drt-video-player .drt-sponsor-block .drt-sponsor-data .drt-sponsor-text a {
+	color: #000;
+}
+
+.player-mode-ad .drt-sponsor-block {
+	display: none;
+}
+
+
+.drt-video-player .drt-menu-block {
+	padding: 40px 45px 40px;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list .drt-th {
+	height: auto;
+	width: 30%;
+	overflow: hidden;
+	margin: 1px;
+
+	max-height: 49%;
+
+	/*border: 1px solid transparent;*/
+}
+
+.drt-video-player .drt-menu-block .drt-video-list video {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list em {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 2px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list img {
+	position: relative;
+	z-index: 0;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list .drt-th .video-list-title {
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 21px;
+	text-align: center;
+	opacity: 1;
+
+	/*transition: bottom 0.3s ease 0s;*/
+}
+
+.drt-video-player .drt-menu-block .drt-video-list .drt-th .video-list-title em {
+	font: 600 12px/14px 'Opens Sans', Helvetica, sans-serif;
+	/*line-height: 18px;*/
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: top;
+
+	background: #000;
+	border-radius: 0;
+	padding: 2px 2px 0 2px;
+	/*font-weight: normal;*/
+	/*font-style: normal;*/
+	display: block;
+	overflow: hidden;
+
+	width: 100%;
+	height: 100%;
+	color: red;
+}
+
+.drt-video-player .drt-menu-block .drt-video-list .drt-th:hover {
+	/*margin: -1px -1px 0;*/
+	/*border: 1px solid #282a31;*/
+}
+
+.drt-video-player .drt-menu-block .drt-video-list .drt-th:hover img {
+	opacity: 0;
+}
+.drt-video-player .drt-menu-block .drt-video-list .drt-th:hover .video-list-title em {
+	/*bottom: -20px;*/
+	color: #fff;
+}
