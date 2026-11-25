@@ -1,0 +1,21 @@
+
+.player-sponsor-block .player-spot-close {
+	background-color: #CC2A2A;
+}
+
+.player-sponsor-block .player-spot-close:hover {
+	background-color: #666666;
+}
+
+.player-sponsor-block .player-sponsor-data {
+	background: rgba(204,204,204,.4);
+}
+
+.player-sponsor-block .player-sponsor-data .player-sponsor-text {
+	color: #000;
+	text-shadow: 0 0 2px #fff;
+}
+
+.player-sponsor-block .player-sponsor-data .player-sponsor-text a {
+	color: #000;
+}
